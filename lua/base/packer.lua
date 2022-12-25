@@ -1,6 +1,6 @@
 -- Qonly required if you have packer configured as `opt`
 
-return require("packer").startup(function(use) 
+return require("packer").startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
@@ -19,7 +19,7 @@ return require("packer").startup(function(use)
 	}
 
 	use {
-		"nvim-treesitter/nvim-treesitter", 
+		"nvim-treesitter/nvim-treesitter",
 		{ run = ":TSUpdate" }
 	}
 	use { "nvim-treesitter/playground" }
@@ -28,19 +28,19 @@ return require("packer").startup(function(use)
 	use { "tpope/vim-fugitive" }
 
 	use { 'neoclide/coc.nvim', branch = 'release' }
-	
-	use { 
+
+	use {
 		"iamcco/markdown-preview.nvim",
 		{ run = function() vim.fn["mkdp#util#install"]() end }
 	}
 
-	use { 
-		"nvim-neo-tree/neo-tree.nvim", 
-		requires = { 
+	use {
+		"nvim-neo-tree/neo-tree.nvim",
+		requires = {
 			"nvim-lua/plenary.nvim",
 			"nvim-tree/nvim-web-devicons",
 			"MunifTanjim/nui.nvim",
-		} 
+        }
 	}
 
 	use {
@@ -62,7 +62,15 @@ return require("packer").startup(function(use)
 			-- Snippets
 			{'L3MON4D3/LuaSnip'},
 			{'rafamadriz/friendly-snippets'},
-		}	
+		}
 	}
+
+    use {
+        "startup-nvim/startup.nvim",
+        requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+        config = function()
+            require"startup".setup()
+        end
+    }
 end)
 

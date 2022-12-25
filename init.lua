@@ -1,10 +1,20 @@
 
-print("Hello "..os.getenv("USER"))
+-- print("Hello "..os.getenv("USER"))
 
 
 require("base")
 
-vim.cmd("set number")
-vim.cmd("set shiftwidth=4")
-vim.cmd("set autoindent")
-vim.cmd("set smartindent")
+
+vim.opt.nu = true
+
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+
+vim.opt.termguicolors = true
+
+

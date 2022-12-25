@@ -1,3 +1,4 @@
+---@diagnostic disable: unused-local
 
 local lsp = require("lsp-zero")
 
