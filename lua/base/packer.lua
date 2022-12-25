@@ -28,6 +28,8 @@ return require("packer").startup(function(use)
 	use { "mbbill/undotree" }
 	use { "tpope/vim-fugitive" }
 
+	use {'neoclide/coc.nvim', branch = 'release'}
+	
 	use { 
 		"nvim-neo-tree/neo-tree.nvim", 
 		requires = { 
@@ -37,4 +39,3 @@ return require("packer").startup(function(use)
 		} 
 	}
 end)
-
