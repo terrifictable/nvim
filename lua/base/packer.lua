@@ -28,8 +28,13 @@ return require("packer").startup(function(use)
 	use { "mbbill/undotree" }
 	use { "tpope/vim-fugitive" }
 
-	use {'neoclide/coc.nvim', branch = 'release'}
+	use { 'neoclide/coc.nvim', branch = 'release' }
 	
+	use { 
+		"iamcco/markdown-preview.nvim",
+		{ run = function() vim.fn["mkdp#util#install"]() end }
+	}
+
 	use { 
 		"nvim-neo-tree/neo-tree.nvim", 
 		requires = { 

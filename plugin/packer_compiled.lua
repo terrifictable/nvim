@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/terrific/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
