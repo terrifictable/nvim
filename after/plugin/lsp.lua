@@ -6,6 +6,8 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
 	"sumneko_lua",
+    "pyright",
+    "rust_analyzer",
 	"clangd",
 	"gopls"
 })
