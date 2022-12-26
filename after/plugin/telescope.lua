@@ -10,3 +10,6 @@ vim.keymap.set('n', "<leader>pst", function()
 end)
 
 
+require("telescope").load_extension("file_browser")
+require("telescope").load_extension("project")
+
