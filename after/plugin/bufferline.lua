@@ -56,3 +56,9 @@ vim.keymap.set("n", "br", vim.cmd.BufferLineCloseRight)
 vim.keymap.set("n", "bl", vim.cmd.BufferLineCloseLeft)
 vim.keymap.set("n", "bd", vim.cmd.bdelete)
 
+vim.keymap.set("n", "bm", vim.cmd.BufferLineCycleNext)
+vim.keymap.set("n", "bn", vim.cmd.BufferLineCyclePrev)
+
+vim.keymap.set("n", "bmm", vim.cmd.BufferLineMoveNext)
+vim.keymap.set("n", "bmn", vim.cmd.BufferLineMovePrev)
+
