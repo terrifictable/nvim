@@ -86,5 +86,7 @@ return require("packer").startup(function(use)
         'akinsho/bufferline.nvim',
         requires = 'nvim-tree/nvim-web-devicons'
     }
+
+    use { "akinsho/toggleterm.nvim" }
 end)
 
