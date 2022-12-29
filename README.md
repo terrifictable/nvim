@@ -7,7 +7,7 @@
 ### Preview
 ![Screenshot](preview-1.png)
 ![Screenshot](preview-2.png)
-![Screenshot](preview-3.png)
+<!-- ![Screenshot](preview-3.png) -->
 
 
 <br><br>
@@ -27,6 +27,8 @@
 [toggleterm](https://github.com/akinsho/toggleterm.nvim)<br>
 [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)<br>
 [undotree](https://github.com/mbbill/undotree)<br>
+[dap](https://github.com/mfussenegger/nvim-dap)<br>
+[dap-ui](https://github.com/rcarriga/nvim-dap-ui)<br>
 
 <br><br>
 
