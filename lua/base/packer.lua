@@ -69,9 +69,6 @@ return require("packer").startup(function(use)
     use {
         "startup-nvim/startup.nvim",
         requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
-        config = function()
-            require"startup".setup()
-        end
     }
 
     use {
@@ -91,5 +88,5 @@ return require("packer").startup(function(use)
 
     use { 'mfussenegger/nvim-dap' }
     use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
-end)
+ end)
 

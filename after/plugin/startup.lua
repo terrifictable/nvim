@@ -1,7 +1,7 @@
 
-require("startup").setup({
+require("startup").setup {
 
-    theme = "dashboard"
+    theme = "evil"
 
-})
+}
 
