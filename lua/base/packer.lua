@@ -1,39 +1,40 @@
--- Qonly required if you have packer configured as `opt`
 
 return require("packer").startup(function(use)
-	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
-	use {
-		"nvim-telescope/telescope.nvim", tag = "0.1.0",
-		requires = { { 'nvim-lua/plenary.nvim' } }
+    use {
+        'rose-pine/neovim',
+        as = 'rose-pine',
+        config = function()
+            vim.cmd.colorscheme("rose-pine")
+        end
     }
+
+
+	use { "nvim-telescope/telescope.nvim", requires = { 'nvim-lua/plenary.nvim' } }
 	use { "nvim-telescope/telescope-file-browser.nvim" }
     use { "nvim-telescope/telescope-project.nvim" }
+    use { "startup-nvim/startup.nvim", requires = { "nvim-lua/plenary.nvim" } }
+    use { "kdheepak/lazygit.nvim", requires = { "nvim-lua/plenary.nvim" } }
 
-	use {
-		'rose-pine/neovim',
-		as = 'rose-pine',
-		config = function()
-			vim.cmd.colorscheme("rose-pine")
-		end
-	}
-
-	use {
-		"nvim-treesitter/nvim-treesitter",
-		{ run = ":TSUpdate" }
-	}
+    use { 'neoclide/coc.nvim', branch = 'release' }
 	use { "nvim-treesitter/playground" }
+    use { "numToStr/Comment.nvim" }
 	use { "theprimeagen/harpoon" }
+    use { "tpope/vim-fugitive" }
 	use { "mbbill/undotree" }
-	use { "tpope/vim-fugitive" }
+    use { "rcarriga/nvim-notify" }
 
-	use { 'neoclide/coc.nvim', branch = 'release' }
 
 	use {
 		"iamcco/markdown-preview.nvim",
 		{ run = function() vim.fn["mkdp#util#install"]() end }
 	}
+    use {
+        "nvim-treesitter/nvim-treesitter",
+        { run = ":TSUpdate" }
+    }
+
 
 	use {
 		"nvim-neo-tree/neo-tree.nvim",
@@ -47,12 +48,10 @@ return require("packer").startup(function(use)
 	use {
 	  	'VonHeikemen/lsp-zero.nvim',
 	  	requires = {
-			-- LSP Support
 			{'neovim/nvim-lspconfig'},
 			{'williamboman/mason.nvim'},
 			{'williamboman/mason-lspconfig.nvim'},
 
-			-- Autocompletion
 			{'hrsh7th/nvim-cmp'},
 			{'hrsh7th/cmp-buffer'},
 			{'hrsh7th/cmp-path'},
@@ -60,33 +59,28 @@ return require("packer").startup(function(use)
 			{'hrsh7th/cmp-nvim-lsp'},
 			{'hrsh7th/cmp-nvim-lua'},
 
-			-- Snippets
 			{'L3MON4D3/LuaSnip'},
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
 
-    use {
-        "startup-nvim/startup.nvim",
-        requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
-    }
 
     use {
         "nvim-lualine/lualine.nvim",
-        requires = {
-            'kyazdani42/nvim-web-devicons',
-            opt = true
-        }
+        requires = { 'kyazdani42/nvim-web-devicons' }
     }
 
     use {
         'akinsho/bufferline.nvim',
-        requires = 'nvim-tree/nvim-web-devicons'
+        requires = { 'nvim-tree/nvim-web-devicons' }
     }
 
     use { "akinsho/toggleterm.nvim" }
+    use { "rest-nvim/rest.nvim", requires = { "nvim-lua/plenary.nvim" } }
 
     use { 'mfussenegger/nvim-dap' }
-    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
- end)
+    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+
+
+end)
 
