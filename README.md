@@ -4,7 +4,7 @@
 
 <br><br>
 
-### Preview
+## Preview
 ![Screenshot](preview-1.png)
 ![Screenshot](preview-2.png)
 <!-- ![Screenshot](preview-3.png) -->
@@ -29,6 +29,10 @@
 [undotree](https://github.com/mbbill/undotree)<br>
 [dap](https://github.com/mfussenegger/nvim-dap)<br>
 [dap-ui](https://github.com/rcarriga/nvim-dap-ui)<br>
+[notify](https://github.com/rcarriga/nvim-notify)<br>
+[lazygit](https://github.com/kdheepak/lazygit.nvim)<br>
+[Comment](https://github.com/numToStr/Comment.nvim)<br>
+
 
 <br><br>
 
