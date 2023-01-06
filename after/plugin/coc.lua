@@ -118,7 +118,7 @@ keyset("x", "<leader>r", "<Plug>(coc-codeaction-refactor-selected)", { silent = 
 keyset("n", "<leader>r", "<Plug>(coc-codeaction-refactor-selected)", { silent = true })
 
 -- Run the Code Lens actions on the current line
-keyset("n", "<leader>cl", "<Plug>(coc-codelens-action)", opts)
+keyset("n", "<leader>ccl", "<Plug>(coc-codelens-action)", opts)
 
 
 -- Map function and class text objects

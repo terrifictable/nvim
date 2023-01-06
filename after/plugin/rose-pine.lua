@@ -40,6 +40,6 @@ require('rose-pine').setup({
 	}
 })
 
-require("after.plugin.colors")
-DoColors()
+-- require("plugin.colors")
+-- DoColors()
 
