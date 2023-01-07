@@ -35,7 +35,7 @@
 [Tokyonight](https://github.com/folke/tokyonight.nvim)<br>
 [NightFox](https://github.com/EdenEast/nightfox.nvim)<br>
 [OneDark](https://github.com/navarasu/onedark.nvim)<br>
-[tagbar](https://github.com/preservim/tagbar)
+[tagbar](https://github.com/preservim/tagbar)<br>
 
 
 <br><br>
