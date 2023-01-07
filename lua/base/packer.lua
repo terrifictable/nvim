@@ -2,13 +2,10 @@
 return require("packer").startup(function(use)
 	use 'wbthomason/packer.nvim'
 
-    use {
-        'rose-pine/neovim',
-        as = 'rose-pine',
-        config = function()
-            vim.cmd.colorscheme("rose-pine")
-        end
-    }
+    use { 'rose-pine/neovim', as = 'rose-pine' }
+    use { 'folke/tokyonight.nvim', as = 'tokyonight' }
+    use { 'EdenEast/nightfox.nvim', as = 'nightfox' }
+    use { 'navarasu/onedark.nvim', as = 'onedark' }
 
 
 	use { "nvim-telescope/telescope.nvim", requires = { 'nvim-lua/plenary.nvim' } }
