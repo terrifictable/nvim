@@ -235,6 +235,11 @@ _G.packer_plugins = {
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/startup.nvim",
     url = "https://github.com/startup-nvim/startup.nvim"
   },
+  tagbar = {
+    loaded = true,
+    path = "/home/terrific/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/preservim/tagbar"
+  },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",

@@ -21,9 +21,10 @@ return require("packer").startup(function(use)
 	use { "nvim-treesitter/playground" }
     use { "numToStr/Comment.nvim" }
 	use { "theprimeagen/harpoon" }
-    use { "tpope/vim-fugitive" }
-	use { "mbbill/undotree" }
     use { "rcarriga/nvim-notify" }
+    use { "tpope/vim-fugitive" }
+    use { "preservim/tagbar" }
+	use { "mbbill/undotree" }
 
 
 	use {
