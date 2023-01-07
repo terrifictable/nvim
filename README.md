@@ -32,6 +32,10 @@
 [notify](https://github.com/rcarriga/nvim-notify)<br>
 [lazygit](https://github.com/kdheepak/lazygit.nvim)<br>
 [Comment](https://github.com/numToStr/Comment.nvim)<br>
+[Tokyonight](https://github.com/folke/tokyonight.nvim)<br>
+[NightFox](https://github.com/EdenEast/nightfox.nvim)<br>
+[OneDark](https://github.com/navarasu/onedark.nvim)<br>
+[tagbar](https://github.com/preservim/tagbar)
 
 
 <br><br>

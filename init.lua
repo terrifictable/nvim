@@ -4,6 +4,9 @@
 
 require("base")
 
+vim.cmd.colorscheme("carbonfox")
+
+
 
 vim.opt.nu = true
 
@@ -16,5 +19,6 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 
 vim.opt.termguicolors = true
+
 
 

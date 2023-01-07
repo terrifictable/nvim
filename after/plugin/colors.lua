@@ -1,7 +1,7 @@
 
 function DoColors(color)
 	color = color or vim.colorscheme
-    if (color == "carbonfox") then
+    if (color == "carbonfox") then -- there is probably a better way to do this, but i dont care
         color = nil
     end
     vim.cmd.colorscheme(color)
