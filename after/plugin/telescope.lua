@@ -13,5 +13,7 @@ end)
 require("telescope").load_extension("file_browser")
 require("telescope").load_extension("project")
 require("telescope").load_extension("lazygit")
-require("telescope").load_extension("notify")
+require("telescope").load_extension("dap")
+require("telescope").load_extension("ui-select")
+require("telescope").load_extension("packer")
 
