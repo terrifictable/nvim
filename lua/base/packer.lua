@@ -7,15 +7,21 @@ return require("packer").startup(function(use)
     use { 'EdenEast/nightfox.nvim', as = 'nightfox' }
     use { 'navarasu/onedark.nvim', as = 'onedark' }
 
+    use { 'wakatime/vim-wakatime' }
 
 	use { "nvim-telescope/telescope.nvim", requires = { 'nvim-lua/plenary.nvim' } }
-	use { "nvim-telescope/telescope-file-browser.nvim" }
-    use { "nvim-telescope/telescope-project.nvim" }
+	use { "nvim-telescope/telescope-file-browser.nvim", requires = { 'nvim-telescope/telescope.nvim' } }
+    use { "nvim-telescope/telescope-project.nvim", requires = { 'nvim-telescope/telescope.nvim' } }
+    use { 'nvim-telescope/telescope-dap.nvim', requires = { 'nvim-telescope/telescope.nvim' } }
+    use { 'nvim-telescope/telescope-packer.nvim', requires = { 'nvim-telescope/telescope.nvim' } }
+    use { 'nvim-telescope/telescope-ui-select.nvim', requires = { 'nvim-telescope/telescope.nvim' } }
     use { "startup-nvim/startup.nvim", requires = { "nvim-lua/plenary.nvim" } }
     use { "kdheepak/lazygit.nvim", requires = { "nvim-lua/plenary.nvim" } }
 
+
     use { 'neoclide/coc.nvim', branch = 'release' }
 	use { "nvim-treesitter/playground" }
+    use { 'lewis6991/gitsigns.nvim' }
     use { "numToStr/Comment.nvim" }
 	use { "theprimeagen/harpoon" }
     use { "rcarriga/nvim-notify" }
