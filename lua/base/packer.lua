@@ -20,6 +20,8 @@ return require("packer").startup(function(use)
 
 
     use { 'neoclide/coc.nvim', branch = 'release' }
+    use { "jose-elias-alvarez/null-ls.nvim" }
+    use { "jayp0521/mason-null-ls.nvim" }
 	use { "nvim-treesitter/playground" }
     use { 'lewis6991/gitsigns.nvim' }
     use { "numToStr/Comment.nvim" }
@@ -56,6 +58,7 @@ return require("packer").startup(function(use)
 			{'williamboman/mason.nvim'},
 			{'williamboman/mason-lspconfig.nvim'},
 
+            {'onsails/lspkind.nvim'},
 			{'hrsh7th/nvim-cmp'},
 			{'hrsh7th/cmp-buffer'},
 			{'hrsh7th/cmp-path'},
