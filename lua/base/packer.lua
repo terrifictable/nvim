@@ -1,6 +1,6 @@
 
 return require("packer").startup(function(use)
-	use 'wbthomason/packer.nvim'
+    use 'wbthomason/packer.nvim'
 
     use { 'rose-pine/neovim', as = 'rose-pine' }
     use { 'folke/tokyonight.nvim', as = 'tokyonight' }
@@ -28,9 +28,13 @@ return require("packer").startup(function(use)
 	use { "theprimeagen/harpoon" }
     use { "rcarriga/nvim-notify" }
     use { "tpope/vim-fugitive" }
+    use { 'David-Kunz/markid' }
+    use { "nvim-neorg/neorg" }
     use { "preservim/tagbar" }
 	use { "mbbill/undotree" }
 
+    use { "windwp/nvim-ts-autotag" }
+    use { "windwp/nvim-autopairs" }
 
 	use {
 		"iamcco/markdown-preview.nvim",

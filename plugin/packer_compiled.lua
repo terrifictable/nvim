@@ -159,6 +159,11 @@ _G.packer_plugins = {
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
+  markid = {
+    loaded = true,
+    path = "/home/terrific/.local/share/nvim/site/pack/packer/start/markid",
+    url = "https://github.com/David-Kunz/markid"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -179,6 +184,11 @@ _G.packer_plugins = {
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
+  neorg = {
+    loaded = true,
+    path = "/home/terrific/.local/share/nvim/site/pack/packer/start/neorg",
+    url = "https://github.com/nvim-neorg/neorg"
+  },
   nightfox = {
     loaded = true,
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/nightfox",
@@ -193,6 +203,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/terrific/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -223,6 +238,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/terrific/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/terrific/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
