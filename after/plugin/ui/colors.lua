@@ -10,7 +10,5 @@ function DoColors(color)
 end
 
 
-
-DoColors()
-
+vim.api.nvim_command("command! -nargs=0 DoColors lua DoColors()")
 

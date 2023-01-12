@@ -36,6 +36,10 @@
 [NightFox](https://github.com/EdenEast/nightfox.nvim)<br>
 [OneDark](https://github.com/navarasu/onedark.nvim)<br>
 [tagbar](https://github.com/preservim/tagbar)<br>
+[auto-pair](https://github.com/windwp/nvim-autopairs)<br>
+[ts-autotag](https://github.com/windwp/nvim-ts-autotag)<br>
+[neorg](https://github.com/nvim-neorg/neorg)<br>
+
 
 
 <br><br>

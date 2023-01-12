@@ -1,10 +1,5 @@
-local status_ok, toggleterm = pcall(require, "toggleterm")
-if not status_ok then
-	return
-end
 
-
-toggleterm.setup {
+require("toggleterm").setup {
 	size = 20,
 	open_mapping = [[<C-t>]],
 	hide_numbers = true,
@@ -27,4 +22,11 @@ toggleterm.setup {
 	}
 }
 
+
+function _G.set_terminal_keymaps()
+  local opts = {buffer = 0}
+  vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
+  vim.keymap.set('t', '<C-w>', [[<C-\><C-n><C-w>]], opts)
+end
+vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
 
