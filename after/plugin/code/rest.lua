@@ -35,7 +35,7 @@ require("rest-nvim").setup {
 }
 
 
-vim.keymap.set("n", "<leader>rr", function() require("rest-nvim").run() end)
-vim.keymap.set("n", "<leader>rp", function() require("rest-nvim").run(true) end)
-vim.keymap.set("n", "<leader>rl", function() require("rest-nvim").last() end)
+vim.keymap.set("n", "<leader>hr", function() require("rest-nvim").run() end)
+vim.keymap.set("n", "<leader>hp", function() require("rest-nvim").run(true) end)
+vim.keymap.set("n", "<leader>hl", function() require("rest-nvim").last() end)
 

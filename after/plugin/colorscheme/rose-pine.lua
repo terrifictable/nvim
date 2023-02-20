@@ -40,6 +40,3 @@ require('rose-pine').setup({
 	}
 })
 
--- require("plugin.colors")
--- DoColors()
-
