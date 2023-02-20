@@ -189,6 +189,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
+  neomake = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neomake",
+    url = "https://github.com/neomake/neomake"
+  },
   neorg = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neorg",
@@ -253,6 +258,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark",
     url = "https://github.com/navarasu/onedark.nvim"
+  },
+  orgmode = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\orgmode",
+    url = "https://github.com/nvim-orgmode/orgmode"
   },
   ["packer.nvim"] = {
     loaded = true,

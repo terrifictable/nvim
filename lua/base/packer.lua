@@ -7,10 +7,13 @@ return require("packer").startup(function(use)
     use { "EdenEast/nightfox.nvim", as = 'nightfox' }
     use { "navarasu/onedark.nvim", as = 'onedark' }
 
+    -- use { "edluffy/hologram.nvim" }
     use { "wakatime/vim-wakatime" }
     use { "stevearc/vim-arduino" }
+    use { "nvim-orgmode/orgmode" }
     use { "wsdjeg/vim-assembly" }
     use { "tpope/vim-surround" }
+    use { "neomake/neomake" }
     use { "normen/vim-pio" }
 
     use { "junegunn/fzf.vim" }
