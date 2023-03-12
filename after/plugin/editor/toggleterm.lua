@@ -11,7 +11,7 @@ require("toggleterm").setup {
 	persist_size = true,
 	direction = "horizontal",
 	close_on_exit = true,
-	shell = vim.o.shell,
+	shell = "powershell", -- vim.o.shell,
 	float_opts = {
 		border = "curved",
 		winblend = 0,
@@ -21,6 +21,8 @@ require("toggleterm").setup {
 		}
 	}
 }
+
+-- print(require("toggleterm"))
 
 
 function _G.set_terminal_keymaps()

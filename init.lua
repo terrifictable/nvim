@@ -1,11 +1,11 @@
 -- print("Hello "..os.getenv("USER"))
-vim.keymap.set('n', "<space>rs", "<cmd>IronRepl<cr>")
+-- vim.keymap.set('n', "<space>rs", "<cmd>IronRepl<cr>")
 
 
 -- change shell stuff depending on shell
 vim.cmd([[
-set shell=powershell
-set shellcmdflag=-command
+set shell=cmd
+set shellcmdflag=/k
 set shellquote=\"
 set shellxquote=
 ]])
@@ -14,8 +14,7 @@ set shellxquote=
 
 require("base")
 
-vim.cmd.colorscheme("carbonfox")
-
+vim.cmd.colorscheme("gruvbox")
 
 -- vim.opt.nu = true
 

@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  badwolf = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\badwolf",
+    url = "https://github.com/sjl/badwolf"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
@@ -114,10 +119,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  fzf = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf",
+    url = "https://github.com/junegunn/fzf"
   },
   ["fzf.vim"] = {
     loaded = true,
@@ -129,15 +144,30 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["go.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
-  ["iron.nvim"] = {
+  ["haskell-vim"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\iron.nvim",
-    url = "https://github.com/hkupty/iron.nvim"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\haskell-vim",
+    url = "https://github.com/neovimhaskell/haskell-vim"
+  },
+  ["hydra.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\hydra.nvim",
+    url = "https://github.com/anuvyklack/hydra.nvim"
   },
   ["lazygit.nvim"] = {
     loaded = true,
@@ -148,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
@@ -184,15 +219,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["neo-tree.nvim"] = {
+  neoformat = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
-    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
-  },
-  neomake = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neomake",
-    url = "https://github.com/neomake/neomake"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neoformat",
+    url = "https://github.com/sbdchd/neoformat"
   },
   neorg = {
     loaded = true,
@@ -209,11 +239,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nim.nvim",
     url = "https://github.com/alaviss/nim.nvim"
   },
-  ["nui.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
-    url = "https://github.com/MunifTanjim/nui.nvim"
-  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
@@ -229,6 +254,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
@@ -238,6 +268,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -252,7 +287,7 @@ _G.packer_plugins = {
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   onedark = {
     loaded = true,
@@ -284,6 +319,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  rainbow = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rainbow",
+    url = "https://github.com/luochen1990/rainbow"
+  },
   ["rest.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rest.nvim",
@@ -299,10 +339,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\startup.nvim",
     url = "https://github.com/startup-nvim/startup.nvim"
   },
-  tagbar = {
+  ["symbols-outline.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tagbar",
-    url = "https://github.com/preservim/tagbar"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\symbols-outline.nvim",
+    url = "https://github.com/simrat39/symbols-outline.nvim"
   },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
@@ -329,6 +369,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
+  },
   ["toggleterm.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
@@ -349,49 +394,49 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
   },
-  ["vim-arduino"] = {
+  ["vim-colortuner"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-arduino",
-    url = "https://github.com/stevearc/vim-arduino"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-colortuner",
+    url = "https://github.com/zefei/vim-colortuner"
   },
-  ["vim-assembly"] = {
+  ["vim-dispatch"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-assembly",
-    url = "https://github.com/wsdjeg/vim-assembly"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-dispatch",
+    url = "https://github.com/tpope/vim-dispatch"
+  },
+  ["vim-easymotion"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-easymotion",
+    url = "https://github.com/easymotion/vim-easymotion"
   },
   ["vim-fugitive"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
-  ["vim-pio"] = {
+  ["vim-gas"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-pio",
-    url = "https://github.com/normen/vim-pio"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-gas",
+    url = "https://github.com/Shirk/vim-gas"
   },
   ["vim-surround"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
+  },
   ["vim-wakatime"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
-  },
-  vlime = {
-    loaded = false,
-    needs_bufread = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\vlime\\vim/",
-    url = "https://github.com/vlime/vlime"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Runtimepath customization
-time([[Runtimepath customization]], true)
-vim.o.runtimepath = vim.o.runtimepath .. ",C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\vlime\\vim/"
-time([[Runtimepath customization]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

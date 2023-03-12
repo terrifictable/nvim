@@ -1,0 +1,406 @@
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:40:57.055
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:40:57.104
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:40:57.115
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:00.402
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:00.447
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:41:00.456
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:10.784
+!MESSAGE >> document/typeDefinition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:12.124
+!MESSAGE >> document/typeDefinition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:15.541
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:19.554
+!MESSAGE >> java/inferSelection
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:22.265
+!MESSAGE >> java/inferSelection
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:24.233
+!MESSAGE >> java/organizeImports
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:25.183
+!MESSAGE >> java/organizeImports
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:25.402
+!MESSAGE >> java/organizeImports
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:25.582
+!MESSAGE >> java/organizeImports
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:44.113
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:44.164
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:41:44.173
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:46.586
+!MESSAGE >> document/implementation
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:41:48.704
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:10.562
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:10.566
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:19.684
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:19.689
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:21.545
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:21.550
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:24.895
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:24.900
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:28.803
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:28.808
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:31.115
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:31.119
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:32.950
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:42:33.007
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:42:33.017
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:34.466
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:34.471
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:37.059
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:37.064
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:41.089
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:41.095
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:44.021
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:44.074
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:43:44.087
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:46.387
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:46.391
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:49.323
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:49.367
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:43:49.376
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:51.038
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:51.043
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:51.852
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:43:51.896
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:43:51.906
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:27.098
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:27.103
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:27.388
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:27.393
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:27.663
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:27.668
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:32.409
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:32.462
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:44:32.472
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:55.976
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:55.981
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:58.747
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:58.751
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:59.861
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:44:59.912
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:44:59.921
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:18.803
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:18.810
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:19.438
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:19.493
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:51:19.504
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:47.423
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:47.428
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:48.172
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:51:48.216
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:51:48.225
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:13.726
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:13.768
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:52:13.776
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:22.533
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:22.576
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:52:22.585
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:54.735
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:54.741
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:58.724
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:52:58.777
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:52:58.786
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:53:13.528
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:53:13.576
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:53:13.584
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:54:08.942
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:54:08.993
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:54:09.003
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:54:38.668
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:54:38.713
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:54:38.722
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:20.771
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:20.776
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.429
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.433
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.459
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.464
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.552
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.557
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.587
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.591
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.636
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.641
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.662
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:21.667
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:24.096
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:24.101
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:24.319
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:24.323
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:25.014
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:56:25.065
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:56:25.075
+!MESSAGE file:///C:/Users/Sandbox/AppData/Local/nvim/after/plugin/lsp/jdtls.lua does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:57:32.431
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:57:32.451
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-02-21 17:57:32.454
+!MESSAGE Could not write workspace metadata 'C:/Users/Sandbox/AppData/Local/nvim/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/)[568]: java.io.FileNotFoundException: C:\Users\Sandbox\AppData\Local\nvim\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\1.tree (Das System kann den angegebenen Pfad nicht finden)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1381)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1168)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2356)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2345)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$1.run(JDTLanguageServer.java:182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2023-02-21 17:57:32.454
+!MESSAGE Could not write workspace metadata 'C:/Users/Sandbox/AppData/Local/nvim/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Sandbox\AppData\Local\nvim\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\1.tree (Das System kann den angegebenen Pfad nicht finden)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1381)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1168)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2356)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2345)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$1.run(JDTLanguageServer.java:182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:57:32.455
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-02-21 17:57:32.460
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

@@ -20,7 +20,29 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 	['<C-Space>'] = cmp.mapping.complete(),
 })
 
+cmp.setup {
+    snippet = {
+        expand = function(args)
+            vim.fn["vsnip#anonymous"](args.body)
+        end
+    }
+}
 
+cmp.setup.filetype("gitcommit", {
+    sources = cmp.config.sources({
+        { name = "cmp_git" },
+    }, {
+        { name = "buffer" },
+    })
+})
+
+-- cmp.setup.cmdline(':', {
+--     sources = cmp.config.sources({
+--         { name = "path" },
+--     }, {
+--         { name = "cmdline" },
+--     })
+-- })
 
 lsp.setup_nvim_cmp({
 	mapping = cmp_mappings
@@ -49,4 +71,10 @@ vim.diagnostic.config({
     virtual_text = true,
     update_in_insert = true,
 })
+
+
+require("lsp_signature").setup {
+    hint_prefix = "",
+    floating_window = false
+}
 

@@ -33,7 +33,7 @@ require('bufferline').setup {
                 separator = true
             },
             {
-                filetype = "neo-tree",
+                filetype = "NvimTree",
                 text = "File Explorer",
                 text_align = "center",
                 separator = true

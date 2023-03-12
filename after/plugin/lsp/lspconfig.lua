@@ -50,10 +50,26 @@ lspconfig["rust_analyzer"].setup({
 lspconfig["clangd"].setup({
 	capabilities = capabilities,
 	on_attach = onattach,
+    cmd = {
+        "clangd",
+        "--background-index",
+        "--pch-storage=memory",
+        "--clang-tidy",
+        "--suggest-missing-includes",
+        "--all-scopes-completion",
+        "--pretty",
+        -- "--header-insertion=never",
+        -- "-j=4",
+        -- "--inlay-hints",
+        -- "--header-insertion-decorators"
+    },
+    filetypes = { "c", "cpp", "objc", "objcpp", "cc", "cxx" },
+    init_option = { fallbackFlags = { "-std=c++2a" } },
 })
 
 lspconfig["gopls"].setup({
 	capabilities = capabilities,
 	on_attach = onattach,
 })
+
 

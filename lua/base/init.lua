@@ -1,5 +1,5 @@
 
-require("base.packer")
+require("base.plugins")
 require("base.remap")
 
 -- vim.notify("Hello World!", "debug")

@@ -6,7 +6,7 @@
 			"rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
 			"initializationOptions": {
 				"cache": {
-					"directory": "/tmp/ccls"
+					"directory": "C:/Users/Sandbox/AppData/Local/Temp/ccls"
 				}
 			}
 		},
