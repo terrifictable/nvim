@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  badwolf = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\badwolf",
-    url = "https://github.com/sjl/badwolf"
-  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
@@ -119,25 +114,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
-  },
-  fzf = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf",
-    url = "https://github.com/junegunn/fzf"
-  },
-  ["fzf.vim"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf.vim",
-    url = "https://github.com/junegunn/fzf.vim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -154,25 +134,15 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
-  harpoon = {
+  ["guihua.lua"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
-    url = "https://github.com/theprimeagen/harpoon"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   ["haskell-vim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\haskell-vim",
     url = "https://github.com/neovimhaskell/haskell-vim"
-  },
-  ["hydra.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\hydra.nvim",
-    url = "https://github.com/anuvyklack/hydra.nvim"
-  },
-  ["lazygit.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lazygit.nvim",
-    url = "https://github.com/kdheepak/lazygit.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -219,15 +189,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  neoformat = {
+  ["neo-tree.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neoformat",
-    url = "https://github.com/sbdchd/neoformat"
-  },
-  neorg = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neorg",
-    url = "https://github.com/nvim-neorg/neorg"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
   nightfox = {
     loaded = true,
@@ -238,6 +203,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nim.nvim",
     url = "https://github.com/alaviss/nim.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -254,10 +224,25 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-jdtls"] = {
+  ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-jdtls",
-    url = "https://github.com/mfussenegger/nvim-jdtls"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -268,11 +253,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -289,60 +269,30 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  onedark = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark",
-    url = "https://github.com/navarasu/onedark.nvim"
-  },
-  orgmode = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\orgmode",
-    url = "https://github.com/nvim-orgmode/orgmode"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  paredit = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\paredit",
-    url = "https://github.com/kovisoft/paredit"
-  },
-  playground = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\playground",
-    url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  rainbow = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rainbow",
-    url = "https://github.com/luochen1990/rainbow"
-  },
   ["rest.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rest.nvim",
     url = "https://github.com/rest-nvim/rest.nvim"
   },
-  ["rose-pine"] = {
+  ripgrep = {
     loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
-    url = "https://github.com/rose-pine/neovim"
+    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
   },
   ["startup.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\startup.nvim",
     url = "https://github.com/startup-nvim/startup.nvim"
-  },
-  ["symbols-outline.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\symbols-outline.nvim",
-    url = "https://github.com/simrat39/symbols-outline.nvim"
   },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
@@ -404,16 +354,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-dispatch",
     url = "https://github.com/tpope/vim-dispatch"
   },
-  ["vim-easymotion"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-easymotion",
-    url = "https://github.com/easymotion/vim-easymotion"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
-  },
   ["vim-gas"] = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-gas",
@@ -428,11 +368,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
-  },
-  ["vim-wakatime"] = {
-    loaded = true,
-    path = "C:\\Users\\Sandbox\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-wakatime",
-    url = "https://github.com/wakatime/vim-wakatime"
   }
 }
 

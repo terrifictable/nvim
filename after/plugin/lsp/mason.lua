@@ -2,7 +2,6 @@ require("mason").setup()
 
 require("mason-lspconfig").setup({
 	ensure_installed = {
-		-- "sumneko_lua",
 		"pyright",
 		"rust_analyzer",
 		"clangd",
@@ -10,12 +9,8 @@ require("mason-lspconfig").setup({
 	},
 })
 
-
-
 require("mason-null-ls").setup({
 	ensure_installed = {
-		-- "prettier",
-		-- "stylua",
 		"gitlint",
 		"habolint",
 		"cpplint",

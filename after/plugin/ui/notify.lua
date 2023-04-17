@@ -1,3 +1,2 @@
-
 vim.notify = require("notify")
 

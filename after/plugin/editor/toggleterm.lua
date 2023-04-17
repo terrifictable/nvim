@@ -1,4 +1,3 @@
-
 require("toggleterm").setup {
 	size = 20,
 	open_mapping = [[<C-t>]],
@@ -21,9 +20,6 @@ require("toggleterm").setup {
 		}
 	}
 }
-
--- print(require("toggleterm"))
-
 
 function _G.set_terminal_keymaps()
   local opts = {buffer = 0}

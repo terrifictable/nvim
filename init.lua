@@ -1,7 +1,3 @@
--- print("Hello "..os.getenv("USER"))
--- vim.keymap.set('n', "<space>rs", "<cmd>IronRepl<cr>")
-
-
 -- change shell stuff depending on shell
 vim.cmd([[
 set shell=cmd
@@ -11,15 +7,16 @@ set shellxquote=
 ]])
 
 
-
 require("base")
 
-vim.cmd.colorscheme("gruvbox")
 
--- vim.opt.nu = true
+-- vim.cmd.colorscheme("tokyonight-night")
+vim.cmd.colorscheme("carbonfox")
 
 vim.opt.number = true
 vim.opt.relativenumber = true
+
+vim.opt.wrap = false
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4

@@ -41,8 +41,3 @@ require("Comment").setup {
 }
 
 
--- vim.keymap.set("n", "<leader>cl", vim.cmd.CommentToggle)
--- vim.keymap.set("v", "b", vim.cmd.CommentToggle)
-
-
-
